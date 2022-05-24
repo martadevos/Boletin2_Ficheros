@@ -10,6 +10,6 @@ public class Main {
         //GestionClientes.altaCliente(ficheroClientes, cliente);
         //GestionClientes.altaCliente(ficheroClientes, cliente);
         //GestionClientes.altaCliente(ficheroClientes, cliente);
-        GestionClientes.consultarElementoPorApellidos(ficheroClientes, "Perez Gómez");
+        System.out.println(GestionClientes.buscarElementoPorApellidos(ficheroClientes, "Pere Gómez"));
     }
 }
